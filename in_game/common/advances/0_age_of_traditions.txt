@@ -563,7 +563,7 @@ province_governors = {
 	icon = glorious_arms
 	requires = efficient_logistics
 
-	global_integration_speed_modifier = 0.10
+	global_integration_speed_modifier = 0.20
 	subject_loyalty = 5
 }
 
