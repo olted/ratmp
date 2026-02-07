@@ -539,7 +539,7 @@ subject_integration = {
 	
 	requires = renaissance_subject_opinions_advance
 	
-	diplomatic_annexation_cost = -0.1
+	diplomatic_annexation_cost = -0.2
 }
 
 rgo_construction_ren = {
