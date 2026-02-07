@@ -103,10 +103,9 @@ sufi_lodge_maintenance = {
 }
 
 temple_maintenance = {
-	glass = 0.02
-	cloth = 0.02
-	paper = 0.02
-	copper = 0.02
+	glass = 0.2
+	cloth = 0.1
+	paper = 0.1
 	tools = 0.01
 	beeswax = 0.05
 		
@@ -120,7 +119,7 @@ temple_maintenance = {
 
 
 library_maintenance = {
-	paper = 0.1
+	paper = 0.2
 	books = 0.25
 	category = building_maintenance
 }
@@ -145,10 +144,10 @@ qalat_al_mashwar_maintenance = {
 }
 
 art_school_maintenance = {
-	paper = 0.3
-	dyes = 0.1
+	paper = 0.5
+	dyes = 0.2
 	marble = 0.1
-	books = 0.2
+	books = 0.5
 	
 	category = building_maintenance	
 }
@@ -500,7 +499,7 @@ hospital_maintenance = {
 	tools = 0.02
 	paper = 0.1
 	books = 0.05
-	medicaments = 0.02
+	medicaments = 0.5
 	mercury = 0.01
 
 	category = building_maintenance

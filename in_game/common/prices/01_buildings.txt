@@ -23,7 +23,9 @@ cardinal_price = {
 free_building = {
 	gold = 0
 }
-
+university = {
+	gold = 800
+}
 small_estate_building = {
 	gold = 200
 }

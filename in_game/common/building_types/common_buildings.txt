@@ -323,7 +323,6 @@ lumber_mill = {
 		OR = {
 			vegetation = woods
 			vegetation = forest
-			vegetation = farmland
 			vegetation = jungle
 		}
 		NOT = {
@@ -425,7 +424,7 @@ sand_pit = {
 
 bog_iron_smelter = {
 	is_foreign = no
-	max_levels = rural_building_cap
+	max_levels = 3
 	pop_type = laborers
 	
 	employment_size = rural_peasant_produce_employment

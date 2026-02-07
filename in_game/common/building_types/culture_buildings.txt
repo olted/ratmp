@@ -12,7 +12,7 @@
 
 	AI_ignore_available_worker_flag = yes #since we may build this to increase pop promotion we don't want lack of workers to block it
 
-	expensive = yes
+	price = university
 
 	build_time = large_cultural_building_time
 
@@ -29,14 +29,15 @@
 		local_migration_attraction = 0.05
 		local_pop_promotion_speed = 0.01
 		local_institution_growth_modifier = 0.33
+		local_monthly_development = 0.005
 	}
 	
 	unique_production_methods = {
 		university_maintenance = {
-		paper = 0.5
-		books = 0.25
-		glass = 0.25
-		beeswax = 0.05
+		paper = 1
+		books = 1
+		glass = 0.75
+		beeswax = 0.2
 	
 		category = building_maintenance
 		}
@@ -208,11 +209,11 @@ opera_house = {
 	
 	unique_production_methods = {
 		opera_house_maintenance = {
-			cloth = 0.6
-			wine = 0.6
-			paper = 0.6
+			cloth = 1
+			wine = 1
+			paper = 1
 			lacquerware = 0.2
-			fine_cloth = 0.1
+			fine_cloth = 0.25
 			beeswax = 0.2
 			
 			category = building_maintenance

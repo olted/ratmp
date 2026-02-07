@@ -55,12 +55,10 @@ cathedral = {
 
 	unique_production_methods = {
 		cathedral_maintenance = {
-			glass = 0.05
-			cloth = 0.05
-			fine_cloth = 0.025
-			paper = 0.1
-			copper = 0.05
-			tools = 0.05
+			glass = 0.15
+			cloth = 0.15
+			fine_cloth = 0.1
+			paper = 0.4
 			category = building_maintenance
 		}
 	}
@@ -70,6 +68,7 @@ cathedral = {
 
 
 	modifier = {
+		local_max_literacy = 5
 		local_clergy_max_literacy = 20
 		local_migration_attraction = 0.1
 		local_pop_conversion_speed_modifier = 0.2
@@ -134,8 +133,8 @@ counting_house = {
 
 	unique_production_methods = {
 		counting_house_maintenance = {
-			paper = 0.2
-			books = 0.05
+			paper = 0.3
+			books = 0.25
 			goods_gold = 0.05
 			tools = 0.1
 			category = building_maintenance
@@ -445,8 +444,8 @@ lazaretto = {
 	unique_production_methods = {
 		lazaretto_maintenance = {
 			fiber_crops = 0.15
-			books = 0.05
-			medicaments = 0.03
+			books = 0.1
+			medicaments = 0.5
 			category = building_maintenance
 		}
 	}
