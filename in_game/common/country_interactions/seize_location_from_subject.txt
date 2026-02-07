@@ -78,15 +78,15 @@
 					value = 1
 					add = { 
 						value = scope:target.development
-						multiply = 0.1
+						multiply = 0.025
 					}
 					add = { 
 						value = scope:target.population
-						multiply = 0.05
+						multiply = 0.025
 					}
 					add = { 
 						value = scope:target.total_building_levels
-						multiply = 0.1
+						multiply = 0.025 
 					}
 					
 				}

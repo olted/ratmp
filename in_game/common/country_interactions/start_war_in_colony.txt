@@ -32,7 +32,6 @@
 			is_subject_type = colonial_nation
 		}
         enabled = {
-			at_war = no
 			subject_loyalty >= MIN_SUBJECT_LOYALTY_FOR_ACTION
 			liberty_desire < MAX_SUBJECT_LIBERTY_DESIRE_FOR_ACTION
 		}
