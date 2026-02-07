@@ -29,7 +29,7 @@ claim_fabrication = {
 	
 	requires = integrated_elites
 	
-	casus_belli_creation_speed_modifier = 0.25
+	merchant_maintenance_cost = -0.1 ###changed
 }
 
 
@@ -206,7 +206,7 @@ vetting = {
 	icon = debt_and_loans
 	for = dip
 
-	counter_espionage = 0.33
+	navy_light_ship_maintenance_cost_modifier = -0.2 ###changed
 }
 merchant_adventures = {
 	age = age_3_discovery
@@ -221,7 +221,7 @@ ships_penny = {
 	icon = rudimentary_coastal_ship_repair
 	for = dip
 
-	ship_build_speed = 0.1
+	ship_build_speed = 0.2
 }
 
 
@@ -277,7 +277,7 @@ free_trade = {
 	age = age_4_reformation
 	for = dip
 
-	global_merchant_capacity_modifier = 0.10
+	global_merchant_capacity_modifier = 0.15 ###changed
 }
 
 land_of_opportunity = {
@@ -320,7 +320,7 @@ dip_choice_subject_opinions = {
 	age = age_5_absolutism
 	icon = scholasticism
 	for = dip
-	subject_opinions = 25
+	subject_loyalty = 7.5
 }
 
 
