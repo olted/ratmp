@@ -186,6 +186,7 @@ tar_kiln = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	forbidden_for_estates = yes
 	
 	location_potential = {
 		OR = {
@@ -324,6 +325,7 @@ lumber_mill = {
 			vegetation = woods
 			vegetation = forest
 			vegetation = jungle
+			vegetation = farmlands
 		}
 		NOT = {
 			raw_material = goods:lumber
@@ -432,6 +434,7 @@ bog_iron_smelter = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	forbidden_for_estates = yes
 
 	
 	location_potential = {

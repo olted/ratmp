@@ -55,10 +55,10 @@ cathedral = {
 
 	unique_production_methods = {
 		cathedral_maintenance = {
-			glass = 0.15
-			cloth = 0.15
-			fine_cloth = 0.1
-			paper = 0.4
+			glass = 0.05
+			cloth = 0.05
+			fine_cloth = 0.08
+			paper = 0.05
 			category = building_maintenance
 		}
 	}

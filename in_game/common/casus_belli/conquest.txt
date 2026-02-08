@@ -12,7 +12,7 @@ cb_conquer_province = {
 	#scopes are actor/recipient for countries, while root = province checked.
 	province = {
 		any_location_in_province = {
-			is_core_of = scope:actor
+			is_core_of = scope:target
 		}
 	}
 
