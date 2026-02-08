@@ -112,7 +112,7 @@ legalism_advance = {
 	icon = legalism_advance
 		
 	stability_cost = -0.1
-	
+	casus_belli_creation_speed = 100.0
 	requires = codified_laws
 	
 	allow = { has_embraced_institution = institution:legalism }

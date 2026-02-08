@@ -3,6 +3,9 @@
 
 
 cb_conquer_province = {
+	visible = {
+		always = yes
+	}
 	allow_creation = {
 		scope:target = {
 			is_neighbor_of = root
@@ -12,9 +15,8 @@ cb_conquer_province = {
 	#scopes are actor/recipient for countries, while root = province checked.
 	province = {
 		any_location_in_province = {
-			is_core_of = scope:target
+			always = yes
 		}
 	}
-
 	war_goal_type = conquer_province
 }
