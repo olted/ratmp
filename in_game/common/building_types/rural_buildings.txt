@@ -533,7 +533,7 @@ windmill = {
 	unique_production_methods = {
 		
 		windmill_maintenance = {
-			tools  = 0.025
+			tools  = 0.2
 			lumber = 0.05
 			cloth = 0.05
 			category = building_maintenance
@@ -579,7 +579,7 @@ local_smelters = {
 	unique_production_methods = {
 		
 		local_smelters_maintenance = {
-			tools  = 0.025
+			tools  = 0.2
 			lumber = 0.05
 			coal = 0.05
 			category = building_maintenance
@@ -620,7 +620,7 @@ sawmill = {
 	unique_production_methods = {
 		
 		sawmill_maintenance = {
-			tools  = 0.05
+			tools  = 0.1
 			category = building_maintenance
 		}
 	}

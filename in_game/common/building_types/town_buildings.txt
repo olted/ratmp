@@ -55,10 +55,10 @@ cathedral = {
 
 	unique_production_methods = {
 		cathedral_maintenance = {
-			glass = 0.05
-			cloth = 0.05
-			fine_cloth = 0.08
-			paper = 0.05
+			glass = 0.2
+			cloth = 0.2
+			fine_cloth = 0.2
+			paper = 0.3
 			category = building_maintenance
 		}
 	}
@@ -373,7 +373,7 @@ wharf = {
 	unique_production_methods = {
 		wharf_maintenance = {
 			tar = 0.1
-			naval_supplies = 0.05
+			naval_supplies = 0.2
 			tools = 0.1
 			lumber = 0.1
 			category = building_maintenance
