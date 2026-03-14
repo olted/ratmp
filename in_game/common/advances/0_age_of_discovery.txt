@@ -34,6 +34,7 @@ open_sea_exploration = {
 	icon = maritime_advance_age_4
 	requires = explorer_commisions_advance
 	allow_open_sea_exploration = yes
+	unlock_casus_belli = cb_exploration
 	colonial_range = 1500
 	ai_preference_tags = {
 		exploration

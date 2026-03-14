@@ -174,7 +174,7 @@ additional_merchants = {
 	icon = merchant_power_from_maritime_reformation_advance
 	for = adm
 
-	global_merchant_capacity_modifier = 0.25
+	global_merchant_capacity_modifier = 0.15
 }
 
 

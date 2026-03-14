@@ -60,7 +60,7 @@
 	}
 
 	province_modifier = {
-		province_integration_speed = 1.0
+		province_integration_speed = 2.0
 	}
 
 	progress = {

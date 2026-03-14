@@ -176,8 +176,7 @@ exploration = {
 	for = dip
 
 	colonial_range = 500
-
-	unlock_casus_belli = cb_exploration
+	merchant_maintenance_cost = -0.2
 
 	ai_preference_tags = {
 		exploration
