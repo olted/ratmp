@@ -3,79 +3,79 @@
 #Recruitment:
 
 infantry_construction = {
-	firearms = 0.1
-	weaponry = 0.1
-	leather = 0.05
+	firearms = 1
+	weaponry = 1
+	leather = 0.3
 	category = regiment_construction
 }
 
 heavy_infantry_construction = {
-	firearms = 0.1
-	weaponry = 0.1
-	leather = 0.05
-	tools = 0.05
+	firearms = 2
+	weaponry = 2
+	leather = 0.5
+	tools = 0.2
 	category = regiment_construction
 }
 early_infantry_construction = {
-	weaponry = 0.1
-	leather = 0.05
+	weaponry = 0.2
+	leather = 0.1
 	category = regiment_construction
 }
 early_heavy_infantry_construction = {
-	weaponry = 0.2
-	leather = 0.05
+	weaponry = 0.4
+	leather = 0.2
 	tools = 0.1
 	category = regiment_construction
 }
 archer_infantry_construction = {
-	weaponry = 0.05
-	leather = 0.05
+	weaponry = 0.2
+	leather = 0.1
 	lumber = 0.05
 	category = regiment_construction
 }
 
 pikemen_construction = {
-	weaponry = 0.1
-	lumber = 0.1
-	leather = 0.1
-	tools = 0.05
+	weaponry = 1
+	lumber = 1
+	leather = 0.3
+	tools = 0.1
 	category = regiment_construction
 }
 rifle_infantry_construction = {
-	firearms = 0.6 # 6x more expensive than muskets
-	weaponry = 0.1
-	leather = 0.05
+	firearms = 3 # 6x more expensive than muskets
+	weaponry = 3
+	leather = 0.4
 	category = regiment_construction
 }
 
 cavalry_construction = {
-	leather = 0.1
-	cloth = 0.1
-	horses = 0.5
-	weaponry = 0.1
+	leather = 0.5
+	cloth = 0.2
+	horses = 2
+	weaponry = 2
 	category = regiment_construction
 }
 heavy_cavalry_construction = {
-	leather = 0.2
-	cloth = 0.1
-	horses = 1.0
-	weaponry = 0.2
+	leather = 1.0
+	cloth = 0.2
+	horses = 2.0
+	weaponry = 1
 	tools = 0.2
 	category = regiment_construction
 }
 expensive_heavy_cavalry_construction = {
-	leather = 0.3
+	leather = 3
 	cloth = 0.2
-	horses = 1.2
-	weaponry = 0.5
-	tools = 0.4
+	horses = 3
+	weaponry = 5
+	tools = 1
 	category = regiment_construction
 }
 
 steppe_horse_archers_construction = {
-	leather = 0.1
+	leather = 0.2
 	horses = 1.0
-	weaponry = 0.1
+	weaponry = 0.2
 	category = regiment_construction
 }
 
@@ -87,14 +87,14 @@ steppe_auxiliary_construction = {
 
 
 artillery_construction = {
-	cannons = 1.0
-	copper = 1.0
-	tin = 0.1
+	cannons = 5.0
+	copper = 2.0
+	tin = 0.5
 	category = regiment_construction
 }
 
 auxuliary_construction = {
-	tools = 0.1
+	tools = 0.13
 	leather = 0.05
 	copper = 0.1
 	category = regiment_construction
@@ -162,42 +162,42 @@ clan_retainer_cavalry_construction = {
 #Maintenance:
 
 infantry_maintenance = {
-	firearms = 0.05
-	weaponry = 0.05
-	leather = 0.03
+	firearms = 0.25
+	weaponry = 0.25
+	leather = 0.1
 	category = regiment_maintenance
 }
 
 
 heavy_infantry_maintenance = {
-	firearms = 0.05
-	weaponry = 0.05
-	leather = 0.03
-	tools = 0.02
+	firearms = 0.5
+	weaponry = 0.5
+	leather = 0.1
+	tools = 0.1
 	category = regiment_maintenance
 }
 early_infantry_maintenance = {
-	weaponry = 0.05
-	leather = 0.03
+	weaponry = 0.1
+	leather = 0.05
 	category = regiment_maintenance
 }
 early_heavy_infantry_maintenance = {
-	weaponry = 0.05
-	leather = 0.03
+	weaponry = 0.2
+	leather = 0.1
 	category = regiment_maintenance
 }
 archer_infantry_maintenance = {
-	weaponry = 0.03
-	leather = 0.03
+	weaponry = 0.1
+	leather = 0.05
 	lumber = 0.03
 	category = regiment_maintenance
 }
 
 pikemen_maintenance = {
-	weaponry = 0.04
-	leather = 0.04
-	lumber = 0.04
-	tools = 0.04
+	weaponry = 0.5
+	leather = 0.5
+	lumber = 0.1
+	tools = 0.1
 	category = regiment_maintenance
 }
 
@@ -208,9 +208,9 @@ steppe_horse_archers_maintenance  = {
 	category = regiment_construction
 }
 rifle_infantry_maintenance = {
-	firearms = 0.30 # 6x more expensive than muskets
-	weaponry = 0.05
-	leather = 0.03
+	firearms = 0.6 # 6x more expensive than muskets
+	weaponry = 0.6
+	leather = 0.1
 	category = regiment_maintenance
 }
 
@@ -223,23 +223,23 @@ steppe_horse_auxiliary_maintenance = {
 }
 
 cavalry_maintenance  = {
-	leather = 0.04
+	leather = 0.1
 	cloth = 0.04
 	horses = 0.25
-	weaponry = 0.05
+	weaponry = 0.2
 	category = regiment_construction
 }
 heavy_cavalry_maintenance = {
-	leather = 0.05
-	weaponry = 0.1
+	leather = 0.2
+	weaponry = 1
 	cloth = 0.05
 	horses = 0.5
 	tools = 0.1
 	category = regiment_maintenance
 }
 expensive_heavy_cavalry_maintenance = {
-	leather = 0.1
-	weaponry = 0.2
+	leather = 0.3
+	weaponry = 1
 	cloth = 0.1
 	horses = 1.0
 	tools = 0.2
@@ -247,8 +247,8 @@ expensive_heavy_cavalry_maintenance = {
 }
 
 artillery_maintenance = {
-	cannons = 0.5 #Ammunition
-	copper = 0.1
+	cannons = 1 #Ammunition
+	copper = 0.3
 	tin = 0.05
 	
 	category = regiment_maintenance

@@ -103,11 +103,9 @@ sufi_lodge_maintenance = {
 }
 
 temple_maintenance = {
-	glass = 0.08
-	cloth = 0.08
-	paper = 0.08
-	copper = 0.08
-	tools = 0.04
+	glass = 0.1
+	cloth = 0.1
+	paper = 0.2
 	beeswax = 0.1
 	no_upkeep = yes
 	category = building_maintenance
@@ -120,8 +118,8 @@ temple_maintenance = {
 
 
 library_maintenance = {
-	paper = 0.4
-	books = 1
+	paper = 0.1
+	books = 0.4
 	category = building_maintenance
 }
 theater_maintenance = {
