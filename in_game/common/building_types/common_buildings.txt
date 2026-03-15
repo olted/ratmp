@@ -169,8 +169,8 @@ mercury_patio = {
 	construction_demand = mercury_patio_construction
 
 	modifier = {
-		local_goods_gold_output_modifier = 1.0
-		local_silver_output_modifier = 1.0
+		local_goods_gold_output_modifier = 0.1
+		local_silver_output_modifier = 0.1
 	}
 }
 
@@ -341,7 +341,7 @@ lumber_mill = {
 			produced = lumber
 			output = 1
 
-			tools = 0.4
+			tools = 0.3
 			
 			category = building_maintenance
 		}

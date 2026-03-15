@@ -201,7 +201,7 @@ paper = {		#Paper
 books = { #books, newspapers, booklets, pamphlets, etc
 	category = produced
 	color = goods_books
-	default_market_price = 5
+	default_market_price = 4
 	
 	transport_cost = 0.5
 	

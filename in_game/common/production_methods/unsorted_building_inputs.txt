@@ -18,8 +18,8 @@ incamisana_maintennace = {
 soldier_building_maintenance = {
 	firearms = 1
 	leather = 1
-	cloth = 0.10
-	paper = 0.20
+	cloth = 0.1
+	paper = 0.1
 	weaponry = 1
 	
 	category = building_maintenance
@@ -105,7 +105,7 @@ sufi_lodge_maintenance = {
 temple_maintenance = {
 	glass = 0.1
 	cloth = 0.1
-	paper = 0.2
+	paper = 0.1
 	beeswax = 0.1
 	no_upkeep = yes
 	category = building_maintenance
@@ -119,14 +119,14 @@ temple_maintenance = {
 
 library_maintenance = {
 	paper = 0.1
-	books = 0.4
+	books = 0.1
 	category = building_maintenance
 }
 theater_maintenance = {
-	cloth = 0.4
-	wine = 0.4
-	paper = 0.4
-	fine_cloth = 0.2
+	cloth = 0.2
+	wine = 0.2
+	paper = 0.1
+	fine_cloth = 0.1
 	
 	category = building_maintenance
 }
