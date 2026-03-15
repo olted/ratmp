@@ -9,7 +9,7 @@
 	right_modifier = {
 		global_estate_target_satisfaction = medium_permanent_target_satisfaction
 		global_estate_satisfaction_recovery = 0.002
-		global_build_buildings_cost = -0.075
+		global_build_buildings_cost = -0.1
 		
 		control_importance_modifier = -0.1
 	}
