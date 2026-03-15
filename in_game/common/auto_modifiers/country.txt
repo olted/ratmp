@@ -48,7 +48,6 @@ country_base_values = {
 	tolerance_own = 1
 	tolerance_heathen = -5
 	tolerance_heretic = -2.5
-	retreat_delay = 120
 	military_tactics = 1.0
 	experience_decay = 0.05
 	
