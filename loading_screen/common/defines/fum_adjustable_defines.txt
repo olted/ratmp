@@ -68,7 +68,7 @@ NUnit = {
 NCombat = {
 	RETREAT_STRENGTH_DAMAGE = 0.01 # 0.1
 	MINIMUM_COMBAT_DURATION = 1 # 1 # 24
-	BOMBARD_HOURS = 1 # 5
+	BOMBARD_HOURS = 3 # 5
 	# HOURS_PER_PHASE = 5
 	COMBAT_DAMAGE_MULT = 0.02 # 0.01
 	COMBAT_HOURLY_MORALE_TICK = 0.02 # 0.01 # Not 100% sure what this is yet, but this matters a lot for loss ratio
@@ -80,7 +80,7 @@ NCombat = {
 	# NAVAL_STRENGTH_DAMAGE_MODIFIER = 0.22 # 0.05
 	# LAND_MORALE_DAMAGE_MODIFIER = 4.54 # 1.0
 	# NAVAL_MORALE_DAMAGE_MODIFIER = 0.9 # 0.2
-	BASE_MORALE_DAMAGE = 2.27 # 1.0
+	BASE_MORALE_DAMAGE = 2 # 1.0
 
 	# Siege
 	# Theoretically should be 16 days
