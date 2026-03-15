@@ -434,4 +434,5 @@ country_unification_advance = {
 
 	requires = absolutism_agressive_advance
 	diplomatic_annexation_cost = -0.2
+	subject_loyalty = 5
 }

@@ -282,6 +282,7 @@ diplomatic_range_age_3 = {
 	requires = development_of_maritime_law
 	
 	diplomatic_range_modifier = 0.25
+	subject_loyalty = 5
 }
 
 trade_envoys = {
