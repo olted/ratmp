@@ -296,10 +296,10 @@ korean_gunnery_construction = {
 
 
 port_building_construction = {
-	masonry = 0.1
-	naval_supplies = 0.2
-	tools = 0.2
-	lumber = 1.0
+	masonry = 5
+	naval_supplies = 20
+	tools = 5
+	lumber = 10
 	category = building_construction
 }
 
