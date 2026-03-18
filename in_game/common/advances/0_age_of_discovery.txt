@@ -286,7 +286,7 @@ rgo_size_advance_discovery = {
 	age = age_3_discovery
 	icon = efficient_mining
 	
-	global_max_rgo_size_modifier = 0.10
+	global_max_rgo_size_modifier_in_rural = 0.10
 
 	requires = trade_range_advance_age_3
 }

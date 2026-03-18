@@ -401,7 +401,7 @@ rgo_size_advance_renaissance = {
 
 	requires = grant_privilege_cost_modifier_renaissance_advance
 	
-	global_max_rgo_size_modifier = 0.10
+	global_max_rgo_size_modifier_in_rural = 0.10
 }
 
 food_advance_renaissance = {
@@ -472,7 +472,7 @@ renaissance_urbanisation = {
 	requires = food_advance_renaissance
 
 
-	global_max_rgo_size_modifier_in_non_rural = 0.1
+	global_max_rgo_size_modifier_in_rural = 0.1
 }
 
 

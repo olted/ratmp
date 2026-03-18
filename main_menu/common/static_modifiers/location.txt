@@ -107,7 +107,7 @@ expensive_food_in_location = {
 	game_data = {
 		category = location
 	}
-	local_population_growth = -0.001
+	local_population_growth = -0.004
 }
 
 #multiplied by how far below FOOD_PRICE food is in this location.
@@ -276,7 +276,7 @@ prosperity = {
 	local_monthly_development = 0.004
 	local_migration_attraction = 0.1
 	local_life_expectancy = 10
-	local_population_growth = 0.002
+	local_population_growth = 0.001
 	
 	local_mercenaries_modifier = -0.5
 }
