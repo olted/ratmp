@@ -602,7 +602,8 @@ winter_mild = {
 		category = location
 	}
 	max_attrition = 2
-	local_monthly_food_modifier = -0.25
+	local_monthly_food_modifier = -0.1
+	local_construction_speed = -0.1
 }
 
 
@@ -613,9 +614,8 @@ winter_normal = {
 	local_army_attrition = 1
 	local_navy_attrition = 5
 	max_attrition = 2
-	local_monthly_food_modifier = -0.50
-	local_food_decay = 0.0025
-	local_construction_speed = -0.5
+	local_monthly_food_modifier = -0.15
+	local_construction_speed = -0.33
 }
 
 
@@ -627,9 +627,8 @@ winter_severe = {
 	local_army_attrition = 2
 	local_navy_attrition = 10
 	max_attrition = 4	
-	local_monthly_food_modifier = -2.0
-	constructions_stalled = yes
-	local_food_decay = 0.005
+	local_monthly_food_modifier = -0.25
+	local_construction_speed = -0.5
 }
 
 
