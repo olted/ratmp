@@ -96,8 +96,8 @@ build_city_demand = {
 }
 
 capital_movement_demand = {
-	paper = 1
-	books = 0.25
+	paper = 10
+	books = 25
 	masonry = 5
 	lumber = 1
 

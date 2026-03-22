@@ -333,111 +333,111 @@ transport_6_maintenance = {
 
 # HEAVY SHIP
 heavy_ship_1_construction = {
-	naval_supplies = 4
+	naval_supplies = 40
 	tools = 1
-	lumber = 5
+	lumber = 20
 	weaponry = 2
 	copper = 0.25
 	tin = 0.02
 	category = ship_construction
 }
 heavy_ship_1_maintenance = {
-	naval_supplies = 0.25
+	naval_supplies = 0.5
 	weaponry = 0.2
 	salt = 0.01
 	category = ship_maintenance
 }
 #
 heavy_ship_2_construction = {
-	naval_supplies = 4
+	naval_supplies = 80
 	tools = 1
-	lumber = 6
+	lumber = 40
 	weaponry = 1
 	copper = 2
 	tin = 0.02
 	category = ship_construction
 }
 heavy_ship_2_maintenance = {
-	naval_supplies = 0.25
+	naval_supplies = 1
 	weaponry = 0.2
 	salt = 0.01
 	category = ship_maintenance
 }
 #
 heavy_ship_3_construction = {
-	naval_supplies = 6
+	naval_supplies = 80
 	tools = 2
-	lumber = 10
-	cannons = 3
+	lumber = 40
+	cannons = 10
 	copper = 2
 	tin = 0.02
 	category = ship_construction
 }
 heavy_ship_3_maintenance = {
-	naval_supplies = 0.5
-	cannons = 0.25
+	naval_supplies = 1
+	cannons = 0.33
 	salt = 0.01
 	category = ship_maintenance
 }
 #
 heavy_ship_4_construction = {
-	naval_supplies = 8
+	naval_supplies = 120
 	tools = 2
-	lumber = 8
-	cannons = 3
+	lumber = 60
+	cannons = 30
 	copper = 0.5
 	tin = 0.02
 	category = ship_construction
 }
 heavy_ship_4_maintenance = {
-	naval_supplies = 0.5
-	cannons = 0.2
+	naval_supplies = 2
+	cannons = 0.33
 	salt = 0.01
 	category = ship_maintenance
 }
 #
 heavy_ship_5_construction = {
-	naval_supplies = 8
+	naval_supplies = 120
 	tools = 4
-	lumber = 10
-	cannons = 4
+	lumber = 60
+	cannons = 40
 	copper = 1
 	tin = 0.02
 	category = ship_construction
 }
 heavy_ship_5_maintenance = {
-	naval_supplies = 0.6
-	cannons = 0.2
+	naval_supplies = 2
+	cannons = 0.33
 	salt = 0.01
 	category = ship_maintenance
 }
 #
 heavy_ship_6_construction = {
-	naval_supplies = 10
+	naval_supplies = 120
 	tools = 4
-	lumber = 10
-	cannons = 4
+	lumber = 60
+	cannons = 40
 	copper = 1
 	tin = 0.2
 	category = ship_construction
 }
 heavy_ship_6_maintenance = {
-	naval_supplies = 0.6
-	cannons = 0.3
+	naval_supplies = 2
+	cannons = 0.33
 	salt = 0.01
 	category = ship_maintenance
 }
 ship_of_the_line_construction = {
-	naval_supplies = 12
+	naval_supplies = 160
 	tools = 5
-	lumber = 16
-	cannons = 6
+	lumber = 80
+	cannons = 60
 	copper = 1.5
 	tin = 0.2
 	category = ship_construction
 }
 ship_of_the_line_maintenance = {
-	naval_supplies = 0.8
+	naval_supplies = 3
 	cannons = 0.5
 	salt = 0.02
 	category = ship_maintenance

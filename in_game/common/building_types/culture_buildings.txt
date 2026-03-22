@@ -35,7 +35,7 @@
 	unique_production_methods = {
 		university_maintenance = {
 		paper = 0.5
-		books = 0.25
+		books = 1
 		glass = 0.25
 	
 		category = building_maintenance

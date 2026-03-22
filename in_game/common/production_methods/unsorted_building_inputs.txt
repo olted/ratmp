@@ -495,10 +495,10 @@ overseas_trading_post_maintenance = {
 
 hospital_maintenance = {
 	fiber_crops = 0.1
-	tools = 0.02
-	paper = 0.1
-	books = 0.05
-	medicaments = 0.02
+	tools = 0.1
+	paper = 0.2
+	books = 0.2
+	medicaments = 2
 	mercury = 0.01
 
 	category = building_maintenance

@@ -58,18 +58,18 @@
 # Its possible vanilla is only using half the ticks for movement,
 # then this could be a rounding error of 11.75%.
 NUnit = {
-	ARMY_MOVEMENT_SPEED = 0.13 # 0.13
-	NAVY_MOVEMENT_SPEED = 0.5 # 0.5
+	ARMY_MOVEMENT_SPEED = 0.54 # 0.13
+	NAVY_MOVEMENT_SPEED = 0.54 # 0.5
 	# LAND_MORALE = 3.0
-	# NAVAL_MORALE = 3.0
+	# NAVAL_MORALE = 3.0t`
 }
 
 # Default combat speed optimized for the maximum increase while keeping initiative the same: (1/(0.1+0.02*6))=(50/11)=4.54
 NCombat = {
 	RETREAT_STRENGTH_DAMAGE = 0.1 # 0.1
-	MINIMUM_COMBAT_DURATION = 24 # 1 # 24
+	MINIMUM_COMBAT_DURATION = 10 # 1 # 24
 	BOMBARD_HOURS = 5 # 5
-	# HOURS_PER_PHASE = 5
+	# HOURS_PER_PHASE = 5`
 	COMBAT_DAMAGE_MULT = 0.01 # 0.01
 	COMBAT_HOURLY_MORALE_TICK = 0.01 # 0.01 # Not 100% sure what this is yet, but this matters a lot for loss ratio
 	INITIATIVE_BASE_CHANCE = 0.1 # 0.1	# base chance each tick
