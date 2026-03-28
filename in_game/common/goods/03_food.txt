@@ -42,7 +42,7 @@ fur = {
 	}
 	
 	demand_multiply = {
-		nobles = 10
+		nobles = 8
 	}
 	
 	
