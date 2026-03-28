@@ -173,6 +173,7 @@ maritime_advance_age_4 = {
 	
 	requires = merchant_power_from_maritime_reformation_advance
 	
+	num_naval_governors = 1
 	global_maritime_presence_modifier = 0.1
 }
 

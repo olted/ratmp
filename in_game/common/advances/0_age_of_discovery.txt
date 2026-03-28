@@ -104,6 +104,7 @@ colonial_policy_advance = {
 	age = age_3_discovery
 	requires = colonial_charters
 	
+	num_naval_governors = 1
 	unlock_law = colonial_policy
 }
 
