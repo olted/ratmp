@@ -433,7 +433,6 @@ local_governor_construction = {
 	tools = 5
 	glass = 5
 	fine_cloth = 2
-	goods_gold = 2
 	category = building_construction
 }
 
