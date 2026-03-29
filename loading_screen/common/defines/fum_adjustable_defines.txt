@@ -94,7 +94,7 @@ NCombat = {
 
 NCountry = {
 	# 180*(25/48)
-	PARLIAMENT_DURATION_DAYS = 180 # 180
+	PARLIAMENT_DURATION_DAYS = 365 # 180
 }
 
 NInternationalOrganization = {

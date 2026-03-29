@@ -333,7 +333,7 @@ transport_6_maintenance = {
 
 # HEAVY SHIP
 heavy_ship_1_construction = {
-	naval_supplies = 40
+	naval_supplies = 4
 	tools = 1
 	lumber = 20
 	weaponry = 2
@@ -349,7 +349,7 @@ heavy_ship_1_maintenance = {
 }
 #
 heavy_ship_2_construction = {
-	naval_supplies = 80
+	naval_supplies = 8
 	tools = 1
 	lumber = 40
 	weaponry = 1
@@ -365,7 +365,7 @@ heavy_ship_2_maintenance = {
 }
 #
 heavy_ship_3_construction = {
-	naval_supplies = 80
+	naval_supplies = 8
 	tools = 2
 	lumber = 40
 	cannons = 10
@@ -381,7 +381,7 @@ heavy_ship_3_maintenance = {
 }
 #
 heavy_ship_4_construction = {
-	naval_supplies = 120
+	naval_supplies = 12
 	tools = 2
 	lumber = 60
 	cannons = 30
@@ -397,7 +397,7 @@ heavy_ship_4_maintenance = {
 }
 #
 heavy_ship_5_construction = {
-	naval_supplies = 120
+	naval_supplies = 12
 	tools = 4
 	lumber = 60
 	cannons = 40
@@ -413,7 +413,7 @@ heavy_ship_5_maintenance = {
 }
 #
 heavy_ship_6_construction = {
-	naval_supplies = 120
+	naval_supplies = 12
 	tools = 4
 	lumber = 60
 	cannons = 40
@@ -428,7 +428,7 @@ heavy_ship_6_maintenance = {
 	category = ship_maintenance
 }
 ship_of_the_line_construction = {
-	naval_supplies = 160
+	naval_supplies = 16
 	tools = 5
 	lumber = 80
 	cannons = 60

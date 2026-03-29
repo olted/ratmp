@@ -73,7 +73,7 @@ army_auxiliary_maintenance = {
 ##################################
 # Heavy Ship
 navy_heavy_ship_build = {
-	gold = 50
+	gold = 50 
 	sailors = 1
 }
 
@@ -82,7 +82,7 @@ navy_heavy_ship_reinforce = {
 	sailors = 1
 }
 navy_heavy_ship_maintenance = {
-	gold = 0.5
+	gold = 1
 	sailors = 0.02
 }
 
