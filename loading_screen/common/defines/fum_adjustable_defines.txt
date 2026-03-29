@@ -59,7 +59,7 @@
 # then this could be a rounding error of 11.75%.
 NUnit = {
 	ARMY_MOVEMENT_SPEED = 0.54 # 0.13
-	NAVY_MOVEMENT_SPEED = 0.54 # 0.5
+	NAVY_MOVEMENT_SPEED = 0.79 # 0.5
 	# LAND_MORALE = 3.0
 	# NAVAL_MORALE = 3.0t`
 }

@@ -273,7 +273,7 @@ development_of_maritime_law = {
 	
 	requires = chartered_companies
 	
-	merchant_maintenance_cost = -0.1
+	trade_range_modifier = 0.25
 }
 
 diplomatic_range_age_3 = {

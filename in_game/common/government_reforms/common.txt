@@ -460,7 +460,7 @@ bank_ledgers_system = {
 	age = age_2_renaissance
 	country_modifier = {
 		monthly_inflation = -0.00025
-		merchant_maintenance_cost = -0.20
+		merchant_maintenance_cost = -0.1
 		monthly_towards_capital_economy = societal_value_monthly_move
 	}	
 

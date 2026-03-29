@@ -176,7 +176,7 @@ exploration = {
 	for = dip
 
 	colonial_range = 500
-	merchant_maintenance_cost = -0.2
+	merchant_maintenance_cost = -0.1
 
 	ai_preference_tags = {
 		exploration
@@ -254,7 +254,7 @@ fast_negotiations = {
 	icon = merchant_power_from_maritime_reformation_advance
 	for = dip
 
-	merchant_maintenance_cost = -0.10
+	trade_range = 500
 }
 trade_manipulation = {
 	age = age_4_reformation
