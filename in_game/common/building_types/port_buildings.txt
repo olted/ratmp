@@ -37,7 +37,7 @@
 		local_sailors = 0.016
 		can_build_ships_in_this_location = yes
 		harbor_suitability = 0.1
-		local_repair_speed = 0.02
+		local_repair_speed = 0.04
 
 	}
 }
@@ -86,7 +86,7 @@ dry_dock = {
 		local_sailors = 0.032
 		can_build_ships_in_this_location = yes
 		harbor_suitability = 0.15
-		local_repair_speed = 0.04
+		local_repair_speed = 0.08
 	}
 }
 
@@ -134,7 +134,7 @@ shipyard = {
 		local_sailors = 0.064
 		can_build_ships_in_this_location = yes
 		harbor_suitability = 0.2
-		local_repair_speed = 0.06
+		local_repair_speed = 0.12
 	}
 }
 
@@ -182,7 +182,7 @@ grand_shipyard = {
 		local_sailors = 0.125
 		can_build_ships_in_this_location = yes
 		harbor_suitability = 0.25
-		local_repair_speed = 0.08
+		local_repair_speed = 0.16
 	}
 }
 
@@ -231,7 +231,7 @@ naval_base = {
 		can_build_ships_in_this_location = yes
 		harbor_suitability = 0.3
 		local_navy_attrition = -1
-		local_repair_speed = 0.1
+		local_repair_speed = 0.2
 	}
 }
 

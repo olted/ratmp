@@ -387,7 +387,7 @@ is_port = {
 	max_ships_built_at_same_time = 1
 	local_institution_growth_modifier = 0.1
 	
-	local_repair_speed = 0.01
+	local_repair_speed = 0.08
 }
 
 
