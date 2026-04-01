@@ -107,7 +107,7 @@ expensive_food_in_location = {
 	game_data = {
 		category = location
 	}
-	local_population_growth = -0.005
+	local_population_growth = -0.001
 }
 
 #multiplied by how far below FOOD_PRICE food is in this location.
@@ -215,7 +215,6 @@ is_blockaded_by_ice = {
 	game_data = {
 		category = location
 	}
-	local_maritime_presence = -2.0
 	local_monthly_development_modifier = -0.20
 }
 
@@ -276,7 +275,7 @@ prosperity = {
 	local_monthly_development = 0.004
 	local_migration_attraction = 0.1
 	local_life_expectancy = 10
-	local_population_growth = 0.001
+	local_population_growth = 0.002
 	
 	local_mercenaries_modifier = -0.5
 }
@@ -388,7 +387,7 @@ is_port = {
 	max_ships_built_at_same_time = 1
 	local_institution_growth_modifier = 0.1
 	
-	local_repair_speed = 0.08
+	local_repair_speed = 0.01
 }
 
 
@@ -602,8 +601,7 @@ winter_mild = {
 		category = location
 	}
 	max_attrition = 2
-	local_monthly_food_modifier = -0.1
-	local_construction_speed = -0.1
+	local_monthly_food_modifier = -0.25
 }
 
 
@@ -612,10 +610,10 @@ winter_normal = {
 		category = location
 	}
 	local_army_attrition = 1
-	local_navy_attrition = 5
 	max_attrition = 2
-	local_monthly_food_modifier = -0.15
-	local_construction_speed = -0.33
+	local_monthly_food_modifier = -0.50
+	local_food_decay = 0.0025
+	local_construction_speed = -0.5
 }
 
 
@@ -625,10 +623,10 @@ winter_severe = {
 	}
 	movement_cost = 0.25
 	local_army_attrition = 2
-	local_navy_attrition = 10
 	max_attrition = 4	
-	local_monthly_food_modifier = -0.25
-	local_construction_speed = -0.5
+	local_monthly_food_modifier = -2.0
+	constructions_stalled = yes
+	local_food_decay = 0.005
 }
 
 
@@ -689,8 +687,8 @@ minor_rebel_uprising = {
 		category = location
 		decaying = yes
 	}
-	local_monthly_prosperity = -0.001
-	local_monthly_control = -0.001 #changed both
+	local_monthly_prosperity = -0.005
+	local_monthly_control = -0.005
 }
 
 ###################################
@@ -1435,9 +1433,9 @@ possible_promotion_percentage = {
 	}
 	local_peasants_estate_power = 10.0
 	local_pop_promotion_speed_scaled = 0.001
-	local_burghers_estate_power = -10
-	local_nobles_estate_power = -10
-	local_clergy_estate_power = -10
+	local_burghers_estate_power = -1
+	local_nobles_estate_power = -1
+	local_clergy_estate_power = -1
 }
 
 privileges_revoked = {
@@ -2284,7 +2282,6 @@ floating_ices_modifier = {
 	}
 
 	movement_cost = 0.33
-	local_navy_attrition = 5
 }
 
 encroaching_cold_modifier = {
@@ -2294,7 +2291,6 @@ encroaching_cold_modifier = {
 	}
 
 	movement_cost = 0.5
-	local_navy_attrition = 10
 }
 
 reduced_wool_production_modifier = {
@@ -2450,7 +2446,6 @@ heavy_rain_in_location = {
 	}
 	local_monthly_food_modifier = 0.25
 
-	local_navy_attrition = 2
 
 }
 
@@ -2463,9 +2458,6 @@ storm_surge_in_location = {
 
 	local_raw_material_output = -0.15
 	local_monthly_prosperity = -0.01
-	local_maritime_presence = -0.5
-
-	local_navy_attrition = 10
 
 }
 
@@ -2479,13 +2471,11 @@ high_winds_in_location = {
 	local_raw_material_output = -0.15
 	local_monthly_prosperity = -0.01
 	local_monthly_food_modifier = -0.05
-	local_maritime_presence = -0.5
 
 	local_food_decay = 0.001
 
 	movement_cost = 0.25
 	
-	local_navy_attrition = 10
 
 }
 
@@ -2499,14 +2489,11 @@ sandstorm_in_location = {
 	local_raw_material_output = -0.25
 	local_monthly_prosperity = -0.015
 	local_monthly_food_modifier = -0.15
-	local_maritime_presence = -1.0
 	
 	local_food_decay = 0.0025
 	
 	movement_cost = 0.25
 
-	local_army_attrition = 5
-	local_navy_attrition = 10
 }
 
 # multiplied by the strength of the weather in the location
@@ -2521,11 +2508,8 @@ snow_storm_in_location = {
 	
 	local_food_decay = 0.001
 	
-	local_maritime_presence = -1.0
 	movement_cost = 0.5
 
-	local_army_attrition = 5
-	local_navy_attrition = 10
 }
 
 # multiplied by the strength of the weather in the location
@@ -2538,10 +2522,6 @@ tornado_in_location = {
 	local_raw_material_output = -1
 	local_monthly_prosperity = -0.025
 	local_monthly_food_modifier = -0.2
-	local_maritime_presence = -2.0
-
-	local_army_attrition = 10
-	local_navy_attrition = 10
 
 }
 	
