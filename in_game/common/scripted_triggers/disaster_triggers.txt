@@ -137,13 +137,12 @@ reform_society_end_trigger = {
 
 religious_turmoil_end_trigger = {
 	OR = {
-		religious_unity > 0.90
+		religious_unity > 0.80
 		societal_value:spiritualist_vs_humanist > 90
 		AND = {
 			societal_value:spiritualist_vs_humanist < -60
 			OR = {
 				estate_satisfaction:clergy_estate > 0.6
-				"estate_power(estate_type:clergy_estate)" > 0.20
 			}
 		}
 	}

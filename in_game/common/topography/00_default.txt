@@ -187,7 +187,7 @@ coastal_ocean = {
 
 inland_sea = {
 	color = terrain_inland_sea
-	can_freeze_over = yes
+	can_freeze_over = no
 	can_have_ice = yes
 	movement_cost = 1.0
 	weather_front_strength_change_percent = 0
@@ -203,7 +203,7 @@ inland_sea = {
 
 narrows = {
 	color = terrain_narrows
-	can_freeze_over = yes
+	can_freeze_over = no
 	can_have_ice = yes
 	movement_cost = 1.2
 	defender = 1
@@ -225,7 +225,7 @@ narrows = {
 
 lakes = {
 	color = terrain_lakes
-	can_freeze_over = yes
+	can_freeze_over = no
 	can_have_ice = yes
 	movement_cost = 1.0
 	weather_front_strength_change_percent = 0
@@ -246,7 +246,7 @@ lakes = {
 
 high_lakes = {
 	color = terrain_high_lakes
-	can_freeze_over = yes
+	can_freeze_over = no
 	can_have_ice = yes
 	movement_cost = 1.0
 

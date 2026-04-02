@@ -47,7 +47,7 @@
 	}
 	
 	has_overlords_ruler = no
-	can_be_annexed = no
+	can_be_annexed = yes #make plyr only
 	is_colonial_subject = yes
 
 	diplomatic_capacity_cost_scale = 0.5
@@ -77,6 +77,7 @@
 
 	great_power_score_transfer = 0.75 # the amount of Great Power Score that is transferred from the Subject to the Overlord
 	merchants_to_overlord_fraction = 0.33 #percentage of merchant power that goes to the overlord
+	
 
 	
 	government = republic
@@ -95,6 +96,7 @@
 	}
 
 	creation_visible = {
+		#scope:target_province ?= { is_overseas_for_owner = yes }#changed
 	}
 
 	subject_creation_enabled = {

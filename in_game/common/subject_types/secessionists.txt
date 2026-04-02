@@ -11,10 +11,10 @@ secessionists = {
 	minimum_opinion_for_offer = 150
 	
 	join_offensive_wars_always = {
-		always = yes
+		always = no #see below
 	}
 	join_defensive_wars_always = {
-		always = yes
+		always = no #so culture larpers cant join
 	}
 	has_overlords_ruler = no
 
