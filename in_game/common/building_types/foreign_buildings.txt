@@ -1,7 +1,7 @@
 ﻿trade_office = {
 	is_foreign = yes
 	stronger_power_projection = no
-	max_levels = guild_max_level
+	max_levels = market_max_level
 	need_good_relation = yes
 	pop_type = burghers
 	
@@ -31,9 +31,8 @@
 	
 	
 	modifier = {
-		merchant_capacity_from_building = 0.3
-		building_owner_maritime_presence = 0.05
-		merchant_power_from_building = 0.2
+		merchant_capacity_from_building = 1
+		merchant_power_from_building = 1
 	}
 }
 

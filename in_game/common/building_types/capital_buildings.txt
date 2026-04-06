@@ -670,7 +670,6 @@ naval_governor = {
 	NOT = {
 		region = {
 			any_location_in_region = {
-				count >= 2
 				has_building = building_type:naval_governor
 				owner = scope:actor
 			}
