@@ -267,7 +267,7 @@ saiger_process_discovery = {
 	age = age_3_discovery
 	icon = serbian_mining
 	
-	global_silver_output_modifier = 0.2
+	global_copper_output_modifier = 0.2
 	global_lead_output_modifier = 0.2
 
 	requires = blast_furnace

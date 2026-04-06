@@ -257,7 +257,7 @@ market_village = {
 			produced = tools
 			output = 0.5
 		
-			iron = 0.4
+			stone = 1.0
 			category = guild_input
 		}
 		

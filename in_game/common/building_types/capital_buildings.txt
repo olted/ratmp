@@ -597,16 +597,21 @@ local_governor = {
 	city = yes
 		 
 	allow = {
-		custom_tooltip = {
-			text = local_governor_tt
-			scope:actor = {	total_building_levels_including_construction:local_governor < modifier:num_local_governors }
-		}
 		owner = scope:actor #not in subjects
 	}
 
 	location_potential = {
 		has_road_to_capital = yes
 		owner.capital != this
+		NOT = {
+			region = {
+				any_location_in_region = {
+					count >= 2
+					has_building = building_type:local_governor
+					owner = scope:actor
+				}
+			}
+		}
 	}
 
 
@@ -658,16 +663,20 @@ naval_governor = {
 	city = yes
 		 
 	allow = {
-		custom_tooltip = {
-			text = naval_governor_tt
-			scope:actor = {	total_building_levels_including_construction:naval_governor < modifier:num_naval_governors }
-		}
 		owner = scope:actor #not in subjects
 	}
 
 	location_potential = {
-		NOT = { is_connected_to = owner.capital }
-		is_port = yes
+	NOT = {
+		region = {
+			any_location_in_region = {
+				count >= 2
+				has_building = building_type:naval_governor
+				owner = scope:actor
+			}
+		}
+	}
+	NOT = { is_connected_to = owner.capital }
 	}
 
 	remove_if = {
