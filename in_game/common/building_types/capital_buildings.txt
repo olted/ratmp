@@ -603,15 +603,43 @@ local_governor = {
 	location_potential = {
 		has_road_to_capital = yes
 		owner.capital != this
-		NOT = {
-			region = {
-				any_location_in_region = {
-					count >= 2
-					has_building = building_type:local_governor
-					owner = scope:actor
+		OR = {
+			AND = {
+				NOT = {
+					region = {
+						any_ownable_location_in_region = {
+							count >= 1
+							has_building = building_type:local_governor
+							owner = scope:actor
+						}
+					}
+				}
+				region = {
+					any_ownable_location_in_region = {
+						is_owned_or_owned_by_subjects_or_below_of = scope:actor
+						percent >= 0.25
+					}
+				}
+			}
+			AND = {
+				NOT = {
+					region = {
+						any_ownable_location_in_region = {
+							count >= 2
+							has_building = building_type:local_governor
+							owner = scope:actor
+						}
+					}
+				}
+				region = {
+					any_ownable_location_in_region = {
+						is_owned_or_owned_by_subjects_or_below_of = scope:actor
+						percent >= 0.51
+					}
 				}
 			}
 		}
+
 	}
 
 
@@ -667,14 +695,36 @@ naval_governor = {
 	}
 
 	location_potential = {
-	NOT = {
-		region = {
-			any_location_in_region = {
-				has_building = building_type:naval_governor
-				owner = scope:actor
+		OR = {
+			AND = {
+				NOT = {
+					region = {
+						any_ownable_location_in_region = {
+							count >= 1
+							has_building = building_type:naval_governor
+							owner = scope:actor
+						}
+					}
+				}
+			}
+			AND = {
+				NOT = {
+					region = {
+						any_ownable_location_in_region = {
+							count >= 2
+							has_building = building_type:naval_governor
+							owner = scope:actor
+						}
+					}
+				}
+				region = {
+					any_ownable_location_in_region = {
+						is_owned_or_owned_by_subjects_or_below_of = scope:actor
+						percent >= 0.51
+					}
+				}
 			}
 		}
-	}
 	NOT = { is_connected_to = owner.capital }
 	}
 

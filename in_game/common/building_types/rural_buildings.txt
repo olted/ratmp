@@ -255,9 +255,9 @@ market_village = {
 	unique_production_methods = {
 		rural_blacksmith = {
 			produced = tools
-			output = 0.5
+			output = 0.25
 		
-			stone = 1.2
+			stone = 0.6
 			category = guild_input
 		}
 		

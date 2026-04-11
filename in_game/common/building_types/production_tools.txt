@@ -84,7 +84,7 @@ tools_workshop = {
 			debug_max_profit = 0.5
 			category = workshop_input
 		}
-		stone_tools_guild_maintenance = {
+		stone_tools_workshop_maintenance = {
 			stone = 0.80
 			produced = tools
 			output = 0.3
@@ -93,7 +93,7 @@ tools_workshop = {
 			category = guild_input
 		}
 		
-		bronze_tools_guild_maintenance = {
+		bronze_tools_workshop_maintenance = {
 			copper = 0.6
 			tin = 0.08
 			produced = tools
@@ -102,7 +102,7 @@ tools_workshop = {
 
 			category = guild_input
 		}
-		copper_tools_guild_maintenance = {
+		copper_tools_workshop_maintenance = {
 			# unlocked by copperworking advance
 			copper = 0.6
 			produced = tools
