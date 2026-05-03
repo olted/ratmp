@@ -101,19 +101,6 @@
 				exists = scope:target
 				exists = scope:target_1
 			}
-			or = {
-				scope:target_1.population >= scope:target.population 
-				scope:target = {
-					any_location_in_province = {
-						population < 20
-					}
-				}
-				scope:target_1 = {
-					any_location_in_province = {
-						population > 40
-					}
-				}
-			}
 		}
 	}
 }
