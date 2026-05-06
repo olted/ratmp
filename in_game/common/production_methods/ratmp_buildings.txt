@@ -1,0 +1,132 @@
+﻿
+soldier_building_maintenance = {
+	firearms = 1
+	leather = 0.2
+	cloth = 0.1
+	paper = 0.1
+	weaponry = 1
+	
+	category = building_maintenance
+}
+
+early_soldier_building_maintenance = {
+	leather = 0.3
+	cloth = 0.10
+	paper = 0.20
+	weaponry = 0.5
+	
+	category = building_maintenance
+}
+
+library_maintenance = {
+	paper = 0.1
+	books = 0.1
+	category = building_maintenance
+}
+
+theater_maintenance = {
+	cloth = 0.2
+	wine = 0.2
+	paper = 0.1
+	fine_cloth = 0.1
+	
+	category = building_maintenance
+}
+
+port_building_maintenance = {
+	tar = 0.6
+	naval_supplies = 2
+	tools = 0.4
+	lumber = 0.6
+	stone = 0.4
+	category = building_maintenance
+}
+
+early_capital_building_maintenance = {
+	furniture = 0.1
+	tools = 0.1
+	glass = 0.5
+	fine_cloth = 0.5
+	books = 0.1
+		
+	category = building_maintenance
+}
+
+early_capital_building_silver_maintenance = {
+	furniture = 0.1
+	tools = 0.1
+	glass = 0.5
+	fine_cloth = 0.5
+	books = 0.1
+		
+	category = building_maintenance
+}
+
+capital_administration_maintenance = {
+	tools = 0.1
+	fine_cloth = 0.25
+	paper = 0.5
+	furniture = 0.1
+		
+	category = building_maintenance
+}
+
+
+expensive_capital_administration_maintenance = {
+	tools = 0.1
+	fine_cloth = 0.5
+	paper = 2.0
+	furniture = 0.25
+		
+	category = building_maintenance
+}
+
+
+capital_building_maintenance = {
+	furniture = 0.1
+	tools = 0.1
+	glass = 0.5
+	fine_cloth = 0.5
+	books = 0.1
+		
+	category = building_maintenance
+}
+
+
+prestige_building_maintenance = {
+	masonry = 0.25
+	tools = 0.1
+	glass = 0.5
+	furniture = 0.1
+		
+	category = building_maintenance
+}
+
+colony_maintenance = {
+
+	category = building_maintenance
+}
+
+missionary_maintenance = {
+
+	category = building_maintenance
+}
+
+overseas_trading_post_maintenance = {
+	liquor = 0.05
+	weaponry = 0.05
+	
+	category = building_maintenance
+}
+
+
+hospital_maintenance = {
+	fiber_crops = 0.1
+	tools = 0.1
+	paper = 0.2
+	books = 0.2
+	medicaments = 1
+	mercury = 0.01
+
+	category = building_maintenance
+}

@@ -1,0 +1,22 @@
+university = {
+	gold = 800
+}
+
+create_market = {
+	gold = 250
+	scaled_gold = 3
+
+    max_scale = 3750
+}
+
+recruit_explorer = {
+	gold = 20
+	scaled_gold = 5
+	
+	max_scale = 750
+}
+
+destroy_market = {
+	stability = 15
+	prestige = 5
+}

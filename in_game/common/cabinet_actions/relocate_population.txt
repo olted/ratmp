@@ -95,12 +95,4 @@
 	country_modifier = {
 	}
 
-	is_finished = {
-		trigger_if = {
-			limit = {
-				exists = scope:target
-				exists = scope:target_1
-			}
-		}
-	}
 }

@@ -1,0 +1,5 @@
+﻿
+colonial_charter_maintenance = {
+	category = special_demands
+}
+

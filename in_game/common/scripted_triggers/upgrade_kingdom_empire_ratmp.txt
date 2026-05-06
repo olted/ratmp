@@ -1,0 +1,29 @@
+﻿
+can_upgrade_country_rank_empire = {
+	trigger_if = {
+		limit = { 
+			religion = religion:catholic 
+		}
+	}
+	OR = {
+		total_population > 10000
+		total_true_faith_population > 7500
+		total_accepted_culture_population > 5000
+	}
+	is_subject = no
+}
+can_upgrade_country_rank_kingdom = {
+	OR = {
+		total_population > 2000
+		total_true_faith_population > 1500
+		total_accepted_culture_population > 1000
+	}
+	is_subject = no
+}
+can_upgrade_country_rank_duchy = {
+	OR = {
+		total_population > 200
+		total_true_faith_population > 150
+		total_accepted_culture_population > 100
+	}
+}

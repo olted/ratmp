@@ -1,0 +1,68 @@
+﻿
+military_revolution = {
+	age = age_5_absolutism 
+	
+	
+	location = stockholm	#fallback for when no valid
+	
+	can_spawn = {
+		OR = {
+			AND = {
+				has_game_rule = institution_spawn_random_city
+				location_rank = location_rank:city
+			}
+			AND = {
+				has_game_rule = institution_spawn_fixed_historical
+				this = location:stockholm
+			}
+			AND = {
+				has_game_rule = institution_spawn_plausible
+				has_institution = institution:pike_and_shot
+				has_institution = institution:artillery_institution
+
+				OR = {
+					continent = continent:europe
+					sub_continent = sub_continent:north_africa
+				}
+
+				is_capital = yes
+				population > 30
+				owner = {
+					yearly_manpower > 2
+					societal_value:offensive_vs_defensive < -20
+				}
+			}
+		}
+		
+	}
+
+
+	promote_chance = {
+		add = {
+			value = modifier:local_manpower
+			multiply = 25
+		}
+		add = {
+			value = num_pop_type:burghers
+			multiply = 2
+		}
+	}
+	
+	#hardcoded spreads for optimisations..
+	spread_from_friendly_coast_border_location = institution_base_spread_from_friendly_neighbor_with_late
+	spread_from_any_coast_border_location = institution_base_spread_from_neighbor_with_late
+	spread_from_any_import = institution_trade_spread_value_late
+	spread_from_any_export = institution_trade_spread_value_late
+	spread_from_was_possible_spawn = institution_spread_from_was_possible_spawn_late
+	spread_scale_on_control_if_owner_embraced = 2
+	spread_embraced_to_capital = institution_total_embraced_to_capital_late
+	spread_to_market_member = institution_spread_to_market_member_late	
+}
+
+
+
+
+
+
+
+

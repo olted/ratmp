@@ -1,0 +1,62 @@
+﻿
+porcelain = {
+	category = produced
+	color = goods_porcelain
+	default_market_price = 5
+	transport_cost = 0.5
+	
+	
+	demand_add = {
+		nobles =  0.05
+		burghers =  0.02
+	}	
+	
+	development_threshold = 20
+	wealth_impact_threshold = {
+		all = 1.2
+	}
+	
+}
+
+lacquerware = {
+	category = produced
+	color = goods_lacquerware
+	default_market_price = 4
+	
+	transport_cost = 0.5
+	demand_add = {
+		upper = 0.0005
+	}	
+	demand_multiply = {
+		nobles = 20
+	}
+	
+	development_threshold = 30
+	
+	wealth_impact_threshold = {
+		all = 1.1
+	}
+
+}
+
+furniture  = {
+	category = produced
+	color = goods_furniture
+	default_market_price = 3
+	
+	transport_cost = 0.5
+	
+	demand_add = {
+		all =  0.0025
+	}	
+	demand_multiply = {
+		upper = 10
+		nobles = 2
+		slaves = 0
+		tribesmen = 0
+	}
+	
+	wealth_impact_threshold = {
+		all = 1.0
+	}
+}

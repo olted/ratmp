@@ -1,0 +1,30 @@
+﻿
+build_town_demand = {
+	masonry = 2
+	lumber = 1
+	category = government_activities
+
+}
+
+build_city_demand = {
+	masonry = 4
+	lumber = 2
+
+	category = government_activities
+
+}
+
+
+create_sea_exploration = {
+	category = building_construction
+}
+
+create_land_exploration = {
+
+	category = building_construction
+}
+
+create_conquistador = {
+
+	category = building_construction
+}
