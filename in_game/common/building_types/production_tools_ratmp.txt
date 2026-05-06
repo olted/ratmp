@@ -12,7 +12,7 @@ tools_guild = {
 	
 	town = yes
 	city = yes
-
+	megalopolis = yes
 	
 
 	build_time = guild_build_time
@@ -71,7 +71,7 @@ tools_workshop = {
 	
 	town = yes
 	city = yes
-
+	megalopolis = yes
 	
 
 	build_time = workshop_build_time
@@ -130,7 +130,7 @@ iron_foundry = {
 	category = basic_industry_category
 	town = yes
 	city = yes
-
+	megalopolis = yes
 	
 
 	build_time = manufactory_build_time
@@ -165,7 +165,7 @@ iron_mill = {
 	category = basic_industry_category
 	town = yes
 	city = yes
-
+	megalopolis = yes
 	
 
 	build_time = mills_build_time

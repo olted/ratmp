@@ -10,7 +10,8 @@
 	
 	town = yes
 	city = yes
-	
+	megalopolis = yes
+
 	location_potential = {
 		is_port = yes
 	}
@@ -60,6 +61,7 @@ dry_dock = {
 	
 	town = yes
 	city = yes
+	megalopolis = yes
 	
 	
 	build_time = medium_port_building_time
@@ -108,6 +110,7 @@ shipyard = {
 	
 	town = yes
 	city = yes
+	megalopolis = yes
 	
 	
 	build_time = large_port_building_time
@@ -156,6 +159,7 @@ grand_shipyard = {
 	
 	town = yes
 	city = yes
+	megalopolis = yes
 	
 	
 	build_time = large_port_building_time
@@ -204,6 +208,7 @@ naval_base = {
 	
 	town = yes
 	city = yes
+	megalopolis = yes
 	
 	
 	build_time = large_port_building_time
@@ -247,6 +252,7 @@ protected_harbor = {
 	
 	town = yes
 	city = yes
+	megalopolis = yes
 	
 	location_potential = {
 		is_port = yes

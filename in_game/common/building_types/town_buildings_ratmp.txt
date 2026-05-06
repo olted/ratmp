@@ -1,0 +1,115 @@
+﻿temple = {
+	is_foreign = no
+	max_levels = 1
+	pop_type = clergy
+
+	employment_size = religious_building_employment
+
+	category = religious_category
+
+	town = yes
+	city = yes
+	megalopolis = yes
+
+
+	build_time = religious_building_time
+
+
+	possible_production_methods = {
+		temple_maintenance
+	}
+
+	graphical_tags = { small_religious }
+
+
+	construction_demand = town_building_construction
+
+
+	modifier = {
+		local_clergy_max_literacy = 5
+		local_unrest = -0.025
+		local_max_control = 0.05
+	}
+
+}
+
+wharf = {
+	is_foreign = no
+	max_levels = 1
+	pop_type = burghers
+
+	employment_size = small_burgher_employment
+
+	category = naval_category
+
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	location_potential = {
+		is_coastal = yes
+	}
+
+	
+
+	build_time = medium_port_building_time
+	
+	unique_production_methods = {
+		wharf_maintenance = {
+			tar = 0.1
+			naval_supplies = 0.2
+			tools = 0.1
+			lumber = 0.1
+			category = building_maintenance
+		}
+
+	}
+
+
+
+
+	construction_demand = town_building_construction
+
+	modifier = {
+		local_sailors = 0.001
+		local_merchant_capacity = 0.1
+		can_build_ships_in_this_location = yes
+		harbor_suitability = 0.1
+		local_repair_speed = 0.04
+	}
+}
+
+hospital = {
+	is_foreign = no
+	pop_type = clergy
+	max_levels = 1
+	employment_size = clergy_medical_employment
+
+	category = infrastructure_category
+
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	location_potential = {
+		development >= 20
+	}
+
+	expensive = yes
+
+	build_time = generic_town_build_time
+
+
+	possible_production_methods = {
+		hospital_maintenance
+	}
+	graphical_tags = { medium_religious }
+
+
+	construction_demand = town_building_construction
+
+	modifier = {
+		local_disease_resistance = 0.1
+		local_life_expectancy = 5
+	}
+}

@@ -1,0 +1,89 @@
+﻿
+market_village = {
+	is_foreign = no
+	max_levels = rural_building_cap
+	pop_type = peasants
+	
+	is_village = yes
+	
+	employment_size = village_employment_size
+	
+	rural_settlement = yes
+	
+	category = village_category
+	
+		
+	
+	build_time = village_build_time
+
+	construction_demand = village_construction
+
+
+	unique_production_methods = {
+		rural_blacksmith = {
+			produced = tools
+			output = 0.25
+		
+			iron = 0.6
+			category = guild_input
+		}
+		
+		rural_glassmaker = {
+			produced = glass
+			output = 0.2
+			sand = 1.0
+
+			category = guild_input
+		}
+
+		rural_millet_brewery = {
+			millet = 0.5
+			lumber = 0.1
+			tools = 0.07
+			
+			produced = beer
+			output = 0.5
+
+			
+			category = guild_input
+		}
+		rural_weaponmaker = {
+			produced = weaponry
+			output = 0.2
+		
+			lumber = 0.32
+			category = guild_input
+		}
+		rural_jewelry_carver = {
+			produced = jewelry
+			output = 0.1
+		
+			stone = 0.4
+			category = guild_input
+		}
+		
+		rural_pottery_maker = {
+			produced = pottery
+			output = 0.2
+		
+			clay = 0.33
+			category = guild_input
+		}
+	}
+
+	modifier = {
+		local_merchant_capacity = 0.10
+		local_merchant_power = 0.10
+		local_market_access = 0.005
+
+		local_food_capacity = 50
+		local_peasants_estate_power = 0.25
+		local_peasant_enfranchisment = 0.01
+
+	}
+	raw_modifier = {
+		local_burghers_desired_pop = 0.01
+		local_laborers_desired_pop = 0.1
+		local_soldiers_desired_pop = 0.05
+	}
+}
